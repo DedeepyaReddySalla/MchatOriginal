@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F032E57208CD39F0041AC39 /* MoodsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F032E56208CD39F0041AC39 /* MoodsTableVC.swift */; };
+		3F2D00F1208E5E280006C280 /* MoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D00F0208E5E280006C280 /* MoodTableViewCell.swift */; };
+		3F33276B208D491800507FED /* MoodTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33276A208D491800507FED /* MoodTableVM.swift */; };
+		3F33276C208D491800507FED /* MoodTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33276A208D491800507FED /* MoodTableVM.swift */; };
+		3F33276D208D491800507FED /* MoodTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33276A208D491800507FED /* MoodTableVM.swift */; };
+		3F332773208D4A0700507FED /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332772208D4A0700507FED /* MoodData.swift */; };
+		3F332774208D4A0700507FED /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332772208D4A0700507FED /* MoodData.swift */; };
+		3F332775208D4A0700507FED /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332772208D4A0700507FED /* MoodData.swift */; };
+		3F3327B5208D6CCC00507FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3327B4208D6CCB00507FED /* Assets.xcassets */; };
 		3FF2833F208BD22600619DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2833E208BD22600619DC2 /* AppDelegate.swift */; };
-		3FF28341208BD22600619DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF28340208BD22600619DC2 /* ViewController.swift */; };
+		3FF28341208BD22600619DC2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF28340208BD22600619DC2 /* HomeVC.swift */; };
 		3FF28344208BD22600619DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF28342208BD22600619DC2 /* Main.storyboard */; };
-		3FF28346208BD22600619DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF28345208BD22600619DC2 /* Assets.xcassets */; };
 		3FF28349208BD22600619DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF28347208BD22600619DC2 /* LaunchScreen.storyboard */; };
 		3FF28354208BD22600619DC2 /* MChatOriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF28353208BD22600619DC2 /* MChatOriginalTests.swift */; };
 		3FF2835F208BD22600619DC2 /* MChatOriginalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2835E208BD22600619DC2 /* MChatOriginalUITests.swift */; };
+		3FF2836E208BD91700619DC2 /* Logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2836D208BD91700619DC2 /* Logo.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F032E56208CD39F0041AC39 /* MoodsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsTableVC.swift; sourceTree = "<group>"; };
+		3F2D00F0208E5E280006C280 /* MoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewCell.swift; sourceTree = "<group>"; };
+		3F33276A208D491800507FED /* MoodTableVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableVM.swift; sourceTree = "<group>"; };
+		3F332772208D4A0700507FED /* MoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodData.swift; sourceTree = "<group>"; };
+		3F3327B4208D6CCB00507FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF2833B208BD22600619DC2 /* MChatOriginal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MChatOriginal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF2833E208BD22600619DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FF28340208BD22600619DC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF28340208BD22600619DC2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		3FF28343208BD22600619DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FF28345208BD22600619DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF28348208BD22600619DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF2834A208BD22600619DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FF2834F208BD22600619DC2 /* MChatOriginalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MChatOriginalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +60,7 @@
 		3FF2835A208BD22600619DC2 /* MChatOriginalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MChatOriginalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF2835E208BD22600619DC2 /* MChatOriginalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MChatOriginalUITests.swift; sourceTree = "<group>"; };
 		3FF28360208BD22600619DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF2836D208BD91700619DC2 /* Logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F032E5A208CD3B00041AC39 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3FF28340208BD22600619DC2 /* HomeVC.swift */,
+				3F032E56208CD39F0041AC39 /* MoodsTableVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		3F332766208D48B300507FED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F33276A208D491800507FED /* MoodTableVM.swift */,
+				3F2D00F0208E5E280006C280 /* MoodTableViewCell.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F332767208D48C300507FED /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F332772208D4A0700507FED /* MoodData.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		3FF28332208BD22600619DC2 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +137,15 @@
 		3FF2833D208BD22600619DC2 /* MChatOriginal */ = {
 			isa = PBXGroup;
 			children = (
+				3F332767208D48C300507FED /* DataModel */,
+				3F332766208D48B300507FED /* ViewModel */,
+				3F032E5A208CD3B00041AC39 /* VC */,
 				3FF2833E208BD22600619DC2 /* AppDelegate.swift */,
-				3FF28340208BD22600619DC2 /* ViewController.swift */,
+				3F3327B4208D6CCB00507FED /* Assets.xcassets */,
 				3FF28342208BD22600619DC2 /* Main.storyboard */,
-				3FF28345208BD22600619DC2 /* Assets.xcassets */,
 				3FF28347208BD22600619DC2 /* LaunchScreen.storyboard */,
 				3FF2834A208BD22600619DC2 /* Info.plist */,
+				3FF2836C208BD54900619DC2 /* Images */,
 			);
 			path = MChatOriginal;
 			sourceTree = "<group>";
@@ -123,6 +166,14 @@
 				3FF28360208BD22600619DC2 /* Info.plist */,
 			);
 			path = MChatOriginalUITests;
+			sourceTree = "<group>";
+		};
+		3FF2836C208BD54900619DC2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2836D208BD91700619DC2 /* Logo.PNG */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF2836E208BD91700619DC2 /* Logo.PNG in Resources */,
 				3FF28349208BD22600619DC2 /* LaunchScreen.storyboard in Resources */,
-				3FF28346208BD22600619DC2 /* Assets.xcassets in Resources */,
+				3F3327B5208D6CCC00507FED /* Assets.xcassets in Resources */,
 				3FF28344208BD22600619DC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF28341208BD22600619DC2 /* ViewController.swift in Sources */,
+				3F332773208D4A0700507FED /* MoodData.swift in Sources */,
+				3FF28341208BD22600619DC2 /* HomeVC.swift in Sources */,
+				3F032E57208CD39F0041AC39 /* MoodsTableVC.swift in Sources */,
+				3F33276B208D491800507FED /* MoodTableVM.swift in Sources */,
+				3F2D00F1208E5E280006C280 /* MoodTableViewCell.swift in Sources */,
 				3FF2833F208BD22600619DC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F332774208D4A0700507FED /* MoodData.swift in Sources */,
+				3F33276C208D491800507FED /* MoodTableVM.swift in Sources */,
 				3FF28354208BD22600619DC2 /* MChatOriginalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F332775208D4A0700507FED /* MoodData.swift in Sources */,
+				3F33276D208D491800507FED /* MoodTableVM.swift in Sources */,
 				3FF2835F208BD22600619DC2 /* MChatOriginalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QX6JDY333;
 				INFOPLIST_FILE = MChatOriginal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.motionmentoring.org.MChatOriginal;
@@ -441,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QX6JDY333;
 				INFOPLIST_FILE = MChatOriginal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.motionmentoring.org.MChatOriginal;

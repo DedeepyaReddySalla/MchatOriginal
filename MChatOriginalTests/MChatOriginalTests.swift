@@ -33,4 +33,24 @@ class MChatOriginalTests: XCTestCase {
         }
     }
     
+    //MARK: MoodData Class Tests
+    //Below function is called test case and methods like XCTAssertNotNil are tests
+    //to test if initialization succeeds when valid parameters are passed
+    func testMoodDataInitializationSucceeds()
+    {
+        let moodData1 = MoodData.init(emotionImg:"Jam.png", description:"You are happy", moodAsses:"Awesome")
+          let moodData2 = MoodData.init(emotionImg:"9", description:"You are happy", moodAsses:"Awesome")
+        //This method is expected to not written nil and if by any chance if this method returns nil then your test case has failed
+        XCTAssertNotNil(moodData1)
+        XCTAssertNotNil(moodData2)
+    }
+    
+    func testMoodInitializationFails()
+    {
+        let moodData1 = MoodData.init(emotionImg:"", description:"fjalj", moodAsses:"")
+          //This method is expected to written nil and if by any chance if this method does not return nil then your test case has failed
+        XCTAssertNil(moodData1)
+    }
+    
+    
 }
