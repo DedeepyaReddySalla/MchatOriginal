@@ -8,8 +8,7 @@
 
 import Foundation
 
-class MoodData
-{
+class MoodData{
     var emotionImg:String
     var description:String
     var moodAsses:String

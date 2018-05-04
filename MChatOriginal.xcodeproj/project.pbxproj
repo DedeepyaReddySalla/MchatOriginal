@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F032E57208CD39F0041AC39 /* MoodsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F032E56208CD39F0041AC39 /* MoodsTableVC.swift */; };
+		3F28B98B209A2221005412DC /* Assesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28B98A209A2221005412DC /* Assesor.swift */; };
+		3F28B98D209A398D005412DC /* MoodAssesorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28B98C209A398D005412DC /* MoodAssesorVC.swift */; };
 		3F2D00F1208E5E280006C280 /* MoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D00F0208E5E280006C280 /* MoodTableViewCell.swift */; };
 		3F33276B208D491800507FED /* MoodTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33276A208D491800507FED /* MoodTableVM.swift */; };
 		3F33276C208D491800507FED /* MoodTableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33276A208D491800507FED /* MoodTableVM.swift */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		3F032E56208CD39F0041AC39 /* MoodsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsTableVC.swift; sourceTree = "<group>"; };
+		3F28B98A209A2221005412DC /* Assesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assesor.swift; sourceTree = "<group>"; };
+		3F28B98C209A398D005412DC /* MoodAssesorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodAssesorVC.swift; sourceTree = "<group>"; };
 		3F2D00F0208E5E280006C280 /* MoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewCell.swift; sourceTree = "<group>"; };
 		3F33276A208D491800507FED /* MoodTableVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableVM.swift; sourceTree = "<group>"; };
 		3F332772208D4A0700507FED /* MoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodData.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 			children = (
 				3FF28340208BD22600619DC2 /* HomeVC.swift */,
 				3F032E56208CD39F0041AC39 /* MoodsTableVC.swift */,
+				3F28B98C209A398D005412DC /* MoodAssesorVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				3F332772208D4A0700507FED /* MoodData.swift */,
+				3F28B98A209A2221005412DC /* Assesor.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -137,14 +143,14 @@
 		3FF2833D208BD22600619DC2 /* MChatOriginal */ = {
 			isa = PBXGroup;
 			children = (
-				3F332767208D48C300507FED /* DataModel */,
-				3F332766208D48B300507FED /* ViewModel */,
-				3F032E5A208CD3B00041AC39 /* VC */,
 				3FF2833E208BD22600619DC2 /* AppDelegate.swift */,
 				3F3327B4208D6CCB00507FED /* Assets.xcassets */,
 				3FF28342208BD22600619DC2 /* Main.storyboard */,
 				3FF28347208BD22600619DC2 /* LaunchScreen.storyboard */,
 				3FF2834A208BD22600619DC2 /* Info.plist */,
+				3F032E5A208CD3B00041AC39 /* VC */,
+				3F332766208D48B300507FED /* ViewModel */,
+				3F332767208D48C300507FED /* DataModel */,
 				3FF2836C208BD54900619DC2 /* Images */,
 			);
 			path = MChatOriginal;
@@ -311,11 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F28B98B209A2221005412DC /* Assesor.swift in Sources */,
 				3F332773208D4A0700507FED /* MoodData.swift in Sources */,
 				3FF28341208BD22600619DC2 /* HomeVC.swift in Sources */,
 				3F032E57208CD39F0041AC39 /* MoodsTableVC.swift in Sources */,
 				3F33276B208D491800507FED /* MoodTableVM.swift in Sources */,
 				3F2D00F1208E5E280006C280 /* MoodTableViewCell.swift in Sources */,
+				3F28B98D209A398D005412DC /* MoodAssesorVC.swift in Sources */,
 				3FF2833F208BD22600619DC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
