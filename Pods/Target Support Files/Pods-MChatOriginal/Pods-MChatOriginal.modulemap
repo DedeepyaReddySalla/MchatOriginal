@@ -1,0 +1,6 @@
+framework module Pods_MChatOriginal {
+  umbrella header "Pods-MChatOriginal-umbrella.h"
+
+  export *
+  module * { export * }
+}

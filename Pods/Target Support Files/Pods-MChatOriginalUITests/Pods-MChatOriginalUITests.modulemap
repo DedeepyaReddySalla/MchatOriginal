@@ -1,0 +1,6 @@
+framework module Pods_MChatOriginalUITests {
+  umbrella header "Pods-MChatOriginalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
